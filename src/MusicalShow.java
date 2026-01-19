@@ -1,4 +1,3 @@
-// Класс MusicalShow (музыкальный спектакль) — наследник Show
 class MusicalShow extends Show {
     private final String musicAuthor;
     private String librettoText;
@@ -9,12 +8,22 @@ class MusicalShow extends Show {
         this.librettoText = librettoText;
     }
 
+    // Геттеры для доступа к полям
+    public String getMusicAuthor() {
+        return musicAuthor;
+    }
+
+    public String getLibrettoText() {
+        return librettoText;
+    }
+
+    public void setLibrettoText(String librettoText) {
+        this.librettoText = librettoText;
+    }
+
+    // Метод для вывода либретто
     public void printLibretto() {
         System.out.println("Текст либретто спектакля '" + getTitle() + "':");
         System.out.println(librettoText);
-    }
-
-    public String getTitle() {
-        return super.title;
     }
 }

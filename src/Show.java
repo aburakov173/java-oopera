@@ -3,10 +3,15 @@ import java.util.List;
 
 // Класс Show (спектакль)
 class Show {
-    String title;
+    private String title;
     private int duration;
     private Director director;
-    List<Actor> listOfActors;
+    private List<Actor> listOfActors;
+
+    // Геттер для title
+    public String getTitle() {
+        return title;
+    }
 
 
     public Show(String title, int duration, Director director) {
