@@ -8,9 +8,20 @@ class Show {
     private Director director;
     private List<Actor> listOfActors;
 
-    // Геттер для title
     public String getTitle() {
         return title;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public Director getDirector() {
+        return director;
+    }
+
+    public List<Actor> getListOfActors() {
+        return listOfActors;
     }
 
 
@@ -60,9 +71,5 @@ class Show {
         }
 
         return sb.toString();
-    }
-
-    public Director getDirector() {
-        return director;
     }
 }
