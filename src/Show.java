@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 // Класс Show (спектакль)
 class Show {
     private String title;
@@ -10,14 +9,6 @@ class Show {
 
     public String getTitle() {
         return title;
-    }
-
-    public int getDuration() {
-        return duration;
-    }
-
-    public Director getDirector() {
-        return director;
     }
 
     public List<Actor> getListOfActors() {
