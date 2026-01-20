@@ -50,6 +50,8 @@ public class Theatre {
         // Выводим списки актёров для каждого спектакля
         System.out.println();
         System.out.println(regularShow);
+        System.out.println(operaShow);
+        System.out.println(balletShow);
 
         // Заменяем актёра в одном из спектаклей
         System.out.println("Замена актера:");
